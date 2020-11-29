@@ -3,10 +3,10 @@
 ## How to Run
   
 - Clone the repository  
-````git clone ````
+````git clone https://github.com/Mohit-Mithra/transport-problem-IT300.git````
 
 - Change Directory   
-```cd ```
+```cd transport-problem-IT300```
 
 - Compile the program  
 ```g++ main.cpp```
