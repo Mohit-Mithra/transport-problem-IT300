@@ -6,7 +6,7 @@
 ````git clone https://github.com/Mohit-Mithra/transport-problem-IT300.git````
 
 - Change Directory   
-```cd transport-problem-IT300```
+```cd transport-problem-IT300/src```
 
 - Compile the program  
 ```g++ main.cpp```
