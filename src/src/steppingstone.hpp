@@ -58,7 +58,7 @@ void SteppingStoneOptimize(int row, int col, vector< int>& Supply, vector< int> 
     }
 
     printf("\n\n");
-    printf("Reduction calculated for each unallocated (i,j):\n");
+    //printf("Reduction calculated for each unallocated (i,j):\n");
     int chosen_x, chosen_y;
 
     for(int r=0;r<row;r++)
@@ -90,7 +90,7 @@ void SteppingStoneOptimize(int row, int col, vector< int>& Supply, vector< int> 
                 }
                 plus = 1 - plus;
             }
-            printf("Reduction for %d,%d = %f\n",r,c,reduction);
+            //printf("Reduction for %d,%d = %f\n",r,c,reduction);
             if (reduction < maxReduction){
                 for(int i = 0;i<loopy;i++){
                     move[i][0] = looppathx[i];
